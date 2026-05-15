@@ -36,5 +36,3 @@ O script:
 5. copia as configs de `.config/` para `~/.config/`.
 6. copia `.bashrc` para `~/.bashrc`.
 7. copia os wallpapers para `~/Pictures/wallpapers/`.
-
-Antes de rodar em uma instalação existente, revise as listas e faça backup das configs atuais se quiser preservar alterações locais.
