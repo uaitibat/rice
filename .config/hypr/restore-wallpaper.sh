@@ -37,4 +37,4 @@ awww img "$wallpaper" \
     --transition-duration "${transition_duration:-2}" \
     --transition-fps "${transition_fps:-60}"
 
-"/home/uaiti/.config/hypr/update-theme-from-wallust.sh" "$wallpaper"
+"${XDG_CONFIG_HOME:-$HOME/.config}/hypr/update-theme-from-wallust.sh" "$wallpaper"

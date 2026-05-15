@@ -105,7 +105,7 @@
     "exec": "printf '󰎁'",
     "interval": 86400,
     "tooltip": false,
-    "on-click": "/home/uaiti/.config/waybar/scripts/toggle-animedash.sh"
+    "on-click": "~/.config/waybar/scripts/toggle-animedash.sh"
   },
   "custom/power": {
     "tooltip": false,

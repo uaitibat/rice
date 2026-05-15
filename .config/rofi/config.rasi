@@ -36,7 +36,7 @@ mainbox {
     orientation:                 horizontal;
     children:                    [  "inputbar" , "listbox" ];
     background-color:            transparent;
-    background-image:            url("/home/uaiti/.config/rofi/coiso.jpg", height);
+    background-image:            url("~/.config/rofi/coiso.jpg", height);
 }
 
 
@@ -46,7 +46,7 @@ inputbar {
     width:                       400px;
     children:                    [ "mode-switcher" , "entry" ];
     background-color:            transparent;
-    background-image:            url("/home/uaiti/.config/rofi/img/miku.png", height);
+    background-image:            url("~/.config/rofi/img/miku.png", height);
 }
 entry {
     enabled:                     false;
@@ -62,7 +62,7 @@ mode-switcher{
     padding:                     95px 10px 95px 10px;
     spacing:                     25px;
     background-color:            transparent;
-   background-image:            url("/home/epharedam/.config/rofi/img/miku.png", height);
+   background-image:            url("~/.config/rofi/img/miku.png", height);
 }
 button {
     cursor:                      pointer;
