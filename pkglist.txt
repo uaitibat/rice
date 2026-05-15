@@ -10,7 +10,6 @@ cava
 cmake
 cmatrix
 corectrl
-dolphin
 dunst
 easyeffects
 ffmpegthumbnailer
@@ -39,12 +38,9 @@ lib32-libxcomposite
 lib32-mangohud
 lib32-ocl-icd
 lib32-openal
-linux-firmware
-linux-zen
-linux-zen-headers
+linux-zen-header
 lsp-plugins
 lxappearance
-ly
 mangohud
 materia-gtk-theme
 mesa
@@ -69,7 +65,6 @@ papirus-icon-theme
 pavucontrol
 pipewire-alsa
 pipewire-pulse
-pokeget
 polkit-kde-agent
 protonup-qt
 python-pip
@@ -82,7 +77,6 @@ radeontop
 rofi
 slurp
 smartmontools
-spicetify-cli
 spotify-launcher
 steam
 sudo
@@ -93,7 +87,6 @@ ttf-jetbrains-mono-nerd
 ttf-liberation
 tty-clock
 tumbler
-ufetch-git
 unrar
 unzip
 uwsm
