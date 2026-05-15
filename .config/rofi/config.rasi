@@ -1,0 +1,153 @@
+// Config //
+configuration {
+    modi:                        "drun,filebrowser,window,run";
+    show-icons:                  false;
+    display-drun:                "";
+    display-run:                 "";
+    display-filebrowser:         "";
+    display-window:              "";
+    drun-display-format:         "{name}";
+    window-format:               "{w}{t}";
+    font:                        "CaskaydiaCove Nerd Font Mono 12";
+    icon-theme:                  "Tela-circle-dracula";
+}
+
+@import "~/.config/rofi/wallust-colors.rasi"
+
+
+// Main //
+window {
+    height:                      400px;
+    width:                       700px;
+    transparency:                "real";
+    fullscreen:                  false;
+    enabled:                     true;
+    cursor:                      "default";
+    spacing:                     0px;
+    padding:                     0px;
+    border:                      2px;
+    border-radius:               40px;
+    border-color:                @border-color; //#ff0000;
+    background-color:            transparent;
+}
+mainbox {
+    enabled:                     true;
+    spacing:                     0px;
+    orientation:                 horizontal;
+    children:                    [  "inputbar" , "listbox" ];
+    background-color:            transparent;
+    background-image:            url("/home/uaiti/.config/rofi/coiso.jpg", height);
+}
+
+
+// Inputs // aca cambias fondo
+inputbar {
+    enabled:                     true;
+    width:                       400px;
+    children:                    [ "mode-switcher" , "entry" ];
+    background-color:            transparent;
+    background-image:            url("/home/uaiti/.config/rofi/img/miku.png", height);
+}
+entry {
+    enabled:                     false;
+}
+
+
+// Modes //
+mode-switcher{
+    orientation:                 vertical;
+    enabled:                     true;
+    spacing:                     0px;
+    width:                       78px;
+    padding:                     95px 10px 95px 10px;
+    spacing:                     25px;
+    background-color:            transparent;
+   background-image:            url("/home/epharedam/.config/rofi/img/miku.png", height);
+}
+button {
+    cursor:                      pointer;
+    height:                      32px;
+    width:                       58px;
+    padding:                     0px;
+    border-radius:               50px;
+    background-color:            #000000 ; //botones de seleccion
+    text-color:                  #ffffff;
+    vertical-align:              0.5;
+    horizontal-align:            0.5;
+}
+button selected {
+    background-color:            @wallust-accent;//ff0000;icono del lado seleccionado
+    text-color:                  #ffffff;//boton seleccionado
+}
+
+
+// Lists //
+listbox {
+    spacing:                     10px;
+    padding:                     30px;
+    children:                    [ "listview" ];
+    background-color:            #000000;//fondo
+}
+listview {
+    enabled:                     true;
+    columns:                     1;
+    cycle:                       true;
+    dynamic:                     true;
+    scrollbar:                   false;
+    border:                      0px;
+    border-color:                transparent;
+    layout:                      vertical;
+    reverse:                     false;
+    fixed-height:                true;
+    fixed-columns:               true;
+    cursor:                      "default";
+    background-color:            transparent;
+    text-color:                  #ffffff;
+}
+
+
+// Elements //
+element {
+    enabled:                     true;
+    spacing:                     30px;
+    padding:                     8px;
+    border:                      0px;
+    border-color:                transparent;
+    border-radius:               20px;
+    cursor:                      pointer;
+    background-color:            transparent;
+    text-color:                  #ffffff;
+}
+element normal.normal,
+element alternate.normal {
+    background-color:            transparent;
+    text-color:                  #ffffff;
+    border:                      0px;
+    border-color:                transparent;
+}
+@media(max-aspect-ratio: 1.8) {
+    element {
+        orientation:             vertical;
+    }
+}
+element selected.normal {
+    background-color:            @wallust-accent ; //#ff0000; //ffffff;
+    text-color:                  #ffffff;
+    border:                      0px;
+    border-color:                transparent;
+}
+element-icon {
+    size:                        40px;
+    cursor:                      inherit;
+    background-color:            transparent;
+    text-color:                  inherit;
+}
+element-text {
+    vertical-align:              0.5;
+    horizontal-align:            0.0;
+    cursor:                      inherit;
+    border:                      0px;
+    border-color:                transparent;
+    background-color:            transparent;
+    text-color:                  inherit;
+}

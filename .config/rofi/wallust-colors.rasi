@@ -1,0 +1,4 @@
+* {
+    wallust-accent: #000365;
+    border-color:   #000365;
+}
