@@ -2,7 +2,7 @@
 
 # uaitiDots
 
-Configurações pessoais para Arch Linux + Hyprland.
+Minhas configs básicas para Arch Linux + Hyprland.
 
 <img src="assets/preview.gif" width="760" alt="Preview do rice">
 
