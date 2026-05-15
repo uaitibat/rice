@@ -1,6 +1,29 @@
+<div align="center">
+
 # Dotfiles
 
-Configurações pessoais para Arch Linux/Hyprland.
+Configurações pessoais para Arch Linux + Hyprland.
+
+<img src="assets/preview.gif" width="760" alt="Preview do rice">
+
+<br>
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="assets/desktop.png" alt="Desktop Hyprland" width="100%">
+      <br>
+      <sub>Hyprland + Waybar</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="assets/wallpaper.png" alt="Wallpaper e Wallust" width="100%">
+      <br>
+      <sub>Wallpapers + Wallust</sub>
+    </td>
+  </tr>
+</table>
+
+</div>
 
 ## Conteúdo
 
@@ -33,6 +56,10 @@ O script:
 2. instala `git`, `base-devel` e `yay`, se necessário;
 3. instala os pacotes da `pkglist.txt` com `pacman`;
 4. instala os pacotes da `aurlist.txt` com `yay`;
-5. copia as configs de `.config/` para `~/.config/`.
-6. copia `.bashrc` para `~/.bashrc`.
+5. copia as configs de `.config/` para `~/.config/`;
+6. copia `.bashrc` para `~/.bashrc`;
 7. copia os wallpapers para `~/Pictures/wallpapers/`.
+
+## Observação
+
+Revise as listas e faça backup das configs atuais antes de rodar em uma instalação existente.
