@@ -15,4 +15,3 @@ ufetch-git
 wallust
 waypaper
 wlogout
-yay
