@@ -62,7 +62,7 @@ O script:
 
 <div align="center">
 
-<img src="https://i.pinimg.com/originals/f8/43/51/f84351996a1ed0c79bcc35b40093ab19.gif" width="760" alt="Sakura gif">
+<img src="https://i.pinimg.com/originals/f8/43/51/f84351996a1ed0c79bcc35b40093ab19.gif" width="100%" alt="Sakura gif">
 
 </div>
 
