@@ -2,8 +2,6 @@
 awww
 base
 base-devel
-bibata-cursor-theme
-brave-bin
 btop
 calf
 cava
@@ -30,7 +28,6 @@ hyprshot
 imagemagick
 intel-ucode
 kitty
-lavat-git
 lib32-gamemode
 lib32-giflib
 lib32-libpulse
@@ -56,7 +53,6 @@ npm
 nwg-look
 obs-studio
 obs-studio-plugin-browser
-oh-my-posh
 openblas
 opencode
 openssh
@@ -66,7 +62,6 @@ pavucontrol
 pipewire-alsa
 pipewire-pulse
 polkit-kde-agent
-protonup-qt
 python-pip
 python-pipx
 python-virtualenv
@@ -85,7 +80,6 @@ tk
 ttf-dejavu
 ttf-jetbrains-mono-nerd
 ttf-liberation
-tty-clock
 tumbler
 unrar
 unzip
@@ -93,19 +87,14 @@ uwsm
 v4l2loopback-dkms
 vim
 vulkan-radeon
-wallust
 waybar
-waypaper
 wget
 wireplumber
-wlogout
 wofi
 xdg-desktop-portal-hyprland
 xdg-utils
 xf86-video-amdgpu
 xf86-video-ati
 xorg-xrdb
-yay
-yay-debug
 zed
 zram-generator
