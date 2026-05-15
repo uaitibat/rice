@@ -101,12 +101,6 @@
     "format": "|",
     "tooltip": false,
   },
-  "custom/anime": {
-    "exec": "printf '󰎁'",
-    "interval": 86400,
-    "tooltip": false,
-    "on-click": "~/.config/waybar/scripts/toggle-animedash.sh"
-  },
   "custom/power": {
     "tooltip": false,
     "on-click": "wlogout -p layer-shell &",

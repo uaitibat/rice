@@ -46,7 +46,6 @@ window#waybar {
 #pulseaudio,
 #custom-logo,
 #custom-power,
-#custom-anime,
 #custom-spotify,
 #custom-notification,
 #cpu,
@@ -112,10 +111,6 @@ window#waybar.empty #window {
 
 #custom-power {
   color: #f38ba8;
-}
-
-#custom-anime {
-  color: #f9e2af;
 }
 
 #custom-wallpaper {
