@@ -4,7 +4,7 @@
 
 Minhas configs básicas para Arch Linux + Hyprland.
 
-<img src="assets/preview.gif" width="760" alt="Preview do rice">
+<img src="assets/preview.gif" width="100%" alt="Preview do rice">
 
 <br>
 
