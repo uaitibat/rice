@@ -60,6 +60,12 @@ O script:
 6. copia `.bashrc` para `~/.bashrc`;
 7. copia os wallpapers para `~/Pictures/wallpapers/`.
 
+<div align="center">
+
+<img src="https://i.pinimg.com/originals/f8/43/51/f84351996a1ed0c79bcc35b40093ab19.gif" width="760" alt="Sakura gif">
+
+</div>
+
 ## Observação
 
 Revise as listas e faça backup das configs atuais antes de rodar em uma instalação existente.
