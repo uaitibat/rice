@@ -1,6 +1,6 @@
 <div align="center">
 
-# Dotfiles
+# uaitiDots
 
 Configurações pessoais para Arch Linux + Hyprland.
 
